@@ -1,0 +1,78 @@
+document.addEventListener('DOMContentLoaded',function(){
+  document.getElementById('menubutton').addEventListener("click", function() {
+    this.classList.toggle("active");
+    document.getElementById("nav").classList.toggle("active");
+  })
+});
+
+document.addEventListener('DOMContentLoaded',function(){
+  setTimeout(function(){
+    document.getElementById("slide1").classList.toggle("slide1add");
+    setInterval(function(){
+      document.getElementById("slide1").classList.toggle("slide1add");
+      setTimeout(function(){
+        document.getElementById("slide1").classList.toggle("slide1add");
+      },5000)
+    },20000)
+  },5000)
+});
+
+document.addEventListener('DOMContentLoaded',function(){
+  setTimeout(function(){
+    document.getElementById("slide2").classList.toggle("slide2add");
+    setTimeout(function(){
+      document.getElementById("slide2").classList.toggle("slide2add");
+      setInterval(function(){
+        document.getElementById("slide2").classList.toggle("slide2add");
+        setTimeout(function(){
+          document.getElementById("slide2").classList.toggle("slide2add");
+        },5000)
+      },20000)
+    },5000)
+  },5000)
+});
+
+document.addEventListener('DOMContentLoaded',function(){
+  setTimeout(function(){
+    document.getElementById("slide3").classList.toggle("slide3add");
+    setTimeout(function(){
+      document.getElementById("slide3").classList.toggle("slide3add");
+      setInterval(function(){
+        document.getElementById("slide3").classList.toggle("slide3add");
+        setTimeout(function(){
+          document.getElementById("slide3").classList.toggle("slide3add");
+        },5000)
+      },20000)
+    },5000)
+  },10000)
+});
+
+document.addEventListener('DOMContentLoaded',function(){
+  setTimeout(function(){
+    document.getElementById("slide4").classList.toggle("slide4add");
+    setTimeout(function(){
+      document.getElementById("slide4").classList.toggle("slide4add");
+      setInterval(function(){
+        document.getElementById("slide4").classList.toggle("slide4add");
+        setTimeout(function(){
+          document.getElementById("slide4").classList.toggle("slide4add");
+        },5000)
+      },20000)
+    },5000)
+  },15000)
+});
+
+document.addEventListener('DOMContentLoaded',function(){
+  setTimeout(function(){
+    document.getElementById("slide5").classList.toggle("slide5add");
+    setTimeout(function(){
+      document.getElementById("slide5").classList.toggle("slide5add");
+      setInterval(function(){
+        document.getElementById("slide5").classList.toggle("slide5add");
+        setTimeout(function(){
+          document.getElementById("slide5").classList.toggle("slide5add");
+        },5000)
+      },20000)
+    },5000)
+  },20000)
+});
